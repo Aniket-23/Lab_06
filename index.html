@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Aniket Singh">
+    <meta name="description" content="6th lab to use cookies">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 6</title>
+    <link href="index.css" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+    <main>
+            <header>
+                <a href="#">Online Voting</a>
+                <div class="nav-link">
+                    <a href="#">Home</a>
+                    <a class="nopad" href="#"><div class="openBtn">
+                        <button class="openButton" data-modal="modalZero">Register</button>
+                    </div></a>
+                    <a href="#">Voting</a>
+                    <a href="#">Election Results</a>
+                    <a class="nopad" href="#"><div class="openBtn">
+                        <button class="openButton" data-modal="modalOne">Contact us</button>
+                    </div></a>
+                    <a class="nopad" href="#"><div class="openBtn">
+                        <button class="openButton" data-modal="modalTwo">Register Complaint</button>
+                    </div></a>
+                </div>
+            </header>
+
+            <div class="banner dark">
+                <p><b>We are open by appointment only</b> / Please call 6204081417 to schedule appointment</p>
+            </div>
+            <div class="banner light">
+                <h1>This is the new official Voting system Website</h1>
+                <p>The website has been updated to provide voters an even easier way to find important election and voting information</p>
+            </div>
+
+            <article id="contact">
+            <h3>Our <u>SignUp</u> Form</h3>
+            <fieldset>
+                <legend>Sign up here</legend>
+                <form id="formid">
+                    <p>
+                        <label for="name">Username: </label>
+                        <input type="text" name="name" id="name" placeholder="Jane Doe" required>
+                    </p>
+                    <p>
+                        <label for="phone">Phone: </label>
+                        <input type="text" id="phone" name="phone" placeholder="Your phone number..">
+                    </p>
+                    <p>
+                        <label for="email">Email ID: </label>
+                        <input type="text" name="email" id="email" placeholder="example@email.com" required>
+                    </p>
+                    <p>
+                        <label for="password">Password: </label>
+                        <input type="password" name="password" id="password" required>
+                    </p>
+                    <p>
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        <button type="submit" onclick="storeValues()">Submit</button>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <button type="reset">Reset</button>
+                    </p>
+                </form>
+            </fieldset>
+        </article>
+        <hr>
+    </main>
+<footer>
+  <p>
+      Copyright &copy; 2247211
+  </p>
+</footer>
+
+</body>
+</html>
